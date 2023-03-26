@@ -32,3 +32,18 @@ void Utilisateur::setPassword(std::string password)
 {
 	password_ = password;
 }
+
+std::list<ListeOeuvres> Utilisateur::getListeListeOeuvres()
+{
+	return listeListeOeuvres_;
+}
+
+void Utilisateur::setListeListeOeuvres(std::list<ListeOeuvres> listeListeOeuvres)
+{
+	listeListeOeuvres_ = listeListeOeuvres;
+}
+
+void Utilisateur::addListeOeuvres(ListeOeuvres listeOeuvres)
+{
+	listeListeOeuvres_.push_back(listeOeuvres);
+}
