@@ -1,5 +1,4 @@
 #include "Utilisateur.h"
-#include <string>
 
 Utilisateur::Utilisateur()
 {
@@ -46,4 +45,20 @@ void Utilisateur::setListeListeOeuvres(std::list<ListeOeuvres> listeListeOeuvres
 void Utilisateur::addListeOeuvres(ListeOeuvres listeOeuvres)
 {
 	listeListeOeuvres_.push_back(listeOeuvres);
+}
+
+std::map<Oeuvre, Avis> Utilisateur::getListeAvis()
+{
+	return listeAvis_;
+}
+
+void Utilisateur::setListeAvis(std::map<Oeuvre, Avis> listeAvis)
+{
+	listeAvis_ = listeAvis;
+}
+
+int Utilisateur::addListeAvis(Oeuvre oeuvre, Avis avis)
+{
+	//à faire
+	return 0;
 }

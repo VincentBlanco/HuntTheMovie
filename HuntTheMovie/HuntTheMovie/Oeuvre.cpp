@@ -1,5 +1,4 @@
 #include "Oeuvre.h"
-#include <string>
 
 Oeuvre::Oeuvre()
 {
