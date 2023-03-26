@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Avis.cpp" />
     <ClCompile Include="HuntTheMovie.cpp" />
     <ClCompile Include="ListeDistributeurs.cpp" />
+    <ClCompile Include="ListeOeuvres.cpp" />
     <ClCompile Include="Oeuvre.cpp" />
     <ClCompile Include="Utilisateur.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Avis.h" />
     <ClInclude Include="ListeDistributeurs.h" />
+    <ClInclude Include="ListeOeuvres.h" />
     <ClInclude Include="Oeuvre.h" />
     <ClInclude Include="Utilisateur.h" />
   </ItemGroup>
