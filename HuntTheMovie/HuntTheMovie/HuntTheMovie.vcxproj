@@ -139,16 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Country.cpp" />
+    <ClCompile Include="Distributor.cpp" />
+    <ClCompile Include="Movie.cpp" />
     <ClCompile Include="Notice.cpp" />
     <ClCompile Include="HuntTheMovie.cpp" />
     <ClCompile Include="DistributorList.cpp" />
     <ClCompile Include="Artwork.cpp" />
+    <ClCompile Include="Series.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Country.h" />
+    <ClInclude Include="Distributor.h" />
+    <ClInclude Include="Movie.h" />
     <ClInclude Include="Notice.h" />
     <ClInclude Include="DistributorList.h" />
     <ClInclude Include="Artwork.h" />
+    <ClInclude Include="Series.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
