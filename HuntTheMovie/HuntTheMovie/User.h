@@ -4,6 +4,7 @@
 #include <map>
 #include "Notice.h"
 #include "Artwork.h"
+#include "Country.h"
 
 class User
 {
@@ -21,6 +22,9 @@ public:
 	void setArtworkListList(std::map<std::string, std::list<Artwork>> artworkListList);
 	std::list<Notice> getNoticeList();
 	void setNoticeList(std::list<Notice> noticeList);
+	
+	//Country
+	Country getCountry();
 
 	//NoticeList methodes
 	int addNotice(Notice notice);
@@ -38,5 +42,6 @@ private :
 	std::string password_;
 	std::map<std::string, std::list<Artwork>> artworkListList_;
 	std::list<Notice> noticeList_;
+	Country country_;
 };
 
