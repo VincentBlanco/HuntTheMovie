@@ -18,36 +18,30 @@
     <ClCompile Include="HuntTheMovie.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Utilisateur.cpp">
+    <ClCompile Include="User.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Oeuvre.cpp">
+    <ClCompile Include="Artwork.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ListeDistributeurs.cpp">
+    <ClCompile Include="DistributorList.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="ListeOeuvres.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Avis.cpp">
+    <ClCompile Include="Notice.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Utilisateur.h">
+    <ClInclude Include="User.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Oeuvre.h">
+    <ClInclude Include="Artwork.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ListeDistributeurs.h">
+    <ClInclude Include="DistributorList.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="ListeOeuvres.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Avis.h">
+    <ClInclude Include="Notice.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

@@ -139,19 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Avis.cpp" />
+    <ClCompile Include="Notice.cpp" />
     <ClCompile Include="HuntTheMovie.cpp" />
-    <ClCompile Include="ListeDistributeurs.cpp" />
-    <ClCompile Include="ListeOeuvres.cpp" />
-    <ClCompile Include="Oeuvre.cpp" />
-    <ClCompile Include="Utilisateur.cpp" />
+    <ClCompile Include="DistributorList.cpp" />
+    <ClCompile Include="Artwork.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Avis.h" />
-    <ClInclude Include="ListeDistributeurs.h" />
-    <ClInclude Include="ListeOeuvres.h" />
-    <ClInclude Include="Oeuvre.h" />
-    <ClInclude Include="Utilisateur.h" />
+    <ClInclude Include="Notice.h" />
+    <ClInclude Include="DistributorList.h" />
+    <ClInclude Include="Artwork.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
